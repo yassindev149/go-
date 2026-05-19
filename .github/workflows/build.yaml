@@ -10,5 +10,6 @@ jobs:
       - uses: actions/setup-go@v6
         with:
           go-version: '1.23'
-      - run: |
+      - name: Build
+        run: |
           go build
